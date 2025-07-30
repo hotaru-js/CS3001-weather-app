@@ -1,0 +1,66 @@
+/* Styling for the contents of index.html */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fffaf5;
+}
+
+/* User input div */
+.userinput {
+    margin-top: 2rem;
+    padding: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    background-color: #ffbe92;
+    color: #414141;
+    border-radius: 16px;
+}
+
+.userinput h4 {
+    font-weight: 400;
+}
+
+.userinput input {
+    padding: 1rem;
+    min-width: 500px;
+    border-radius: 16px;
+    border: none;
+}
+
+.userinput button {
+    padding: 1rem;
+    min-width: 180px;
+    border-radius: 16px;
+    background-color: #dc600e;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    margin-left: 12px;
+}
+
+/* Weather output div */
+.weatheroutput {
+    margin-top: 2rem;
+    padding: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    background-color: #f3eae0;
+    color: #414141;
+    border-radius: 16px;
+}
+
+.weatheroutput .error {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background-color: #ecb6b6;
+    color: #000000;
+    border-radius: 16px;
+    max-width: fit-content;
+}
+
+.hidden {
+    display: none;
+}

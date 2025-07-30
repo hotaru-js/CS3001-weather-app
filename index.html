@@ -1,0 +1,48 @@
+<!--
+Implementation of a weather app website
+that gets user input of a location and
+returns weather data retrieved from OpenWeatherMap     
+-->
+
+<!DOCTYPE html>
+    <head>
+        <title>Weather it out!</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <!-- Div containing user input -->
+        <div class="userinput">
+            <h1>Weather it out!</h1>
+            <h4 class="subtext">Enter location to check weather of</h4>
+
+            <input type="text" id="location" placeholder="Enter your location">
+            <button class="submit" onclick="getWeather()">Search</button>
+        </div>
+
+        <!-- Div displaying weather details retrieved -->
+        <div class="weatheroutput">
+
+            <!-- Quick view of the weather details -->
+            <h1 id="locname"></h1>
+            
+            <div class="quickweather">
+                <h2 id="quick"></h2>
+                <img id="icon">
+            </div>
+
+            <!-- Text tags for the weather data to be displayed-->
+            <h5 id="temp"></h5>
+            <h5 id="desc"></h5>
+            <h5 id="hum"></h5>
+            <h5 id="speed"></h5>
+
+            <!-- Div to showcase alerts if any -->
+            <div class="error hidden" id="error">
+                <h5 id="alert"></h5>
+            </div>
+        </div>
+    </body>
+
+    <script src="script.js"></script>
+</html>

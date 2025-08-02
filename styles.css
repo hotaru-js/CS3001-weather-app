@@ -1,66 +1,83 @@
 /* Styling for the contents of index.html */
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #fffaf5;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fffaf5;
 }
 
 /* User input div */
 .userinput {
-    margin-top: 2rem;
-    padding: 1rem;
-    padding-bottom: 2rem;
-    padding-left: 2rem;
-    background-color: #ffbe92;
-    color: #414141;
-    border-radius: 16px;
+  margin-top: 2rem;
+  padding: 1rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  background-color: #ffbe92;
+  color: #414141;
+  border-radius: 16px;
 }
 
 .userinput h4 {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 .userinput input {
-    padding: 1rem;
-    min-width: 500px;
-    border-radius: 16px;
-    border: none;
+  padding: 1rem;
+  min-width: 500px;
+  border-radius: 16px;
+  border: none;
 }
 
 .userinput button {
-    padding: 1rem;
-    min-width: 180px;
-    border-radius: 16px;
-    background-color: #dc600e;
-    color: #fff;
-    font-size: 14px;
-    font-weight: 600;
-    border: none;
-    margin-left: 12px;
+  padding: 1rem;
+  min-width: 180px;
+  border-radius: 16px;
+  background-color: #dc600e;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  margin-left: 12px;
+  cursor: pointer;
+}
+
+.userinput button:hover {
+  background-color: #a94400;
 }
 
 /* Weather output div */
+
 .weatheroutput {
-    margin-top: 2rem;
-    padding: 1rem;
-    padding-bottom: 2rem;
-    padding-left: 2rem;
-    background-color: #f3eae0;
-    color: #414141;
-    border-radius: 16px;
+  margin-top: 2rem;
+  padding: 1rem 2rem 2rem 2rem;
+  background-color: #f3eae0;
+  color: #414141;
+  border-radius: 16px;
+}
+
+.weatheroutput h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.weatheroutput h5 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0.5rem 0;
 }
 
 .weatheroutput .error {
-    padding: 0.5rem 1rem 0.5rem 1rem;
-    background-color: #ecb6b6;
-    color: #000000;
-    border-radius: 16px;
-    max-width: fit-content;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  background-color: #ecb6b6;
+  color: #000000;
+  border-radius: 16px;
+  max-width: fit-content;
 }
 
+// Selector to hide stuff
 .hidden {
-    display: none;
+  display: none;
 }

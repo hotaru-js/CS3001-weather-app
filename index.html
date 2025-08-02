@@ -21,14 +21,13 @@ returns weather data retrieved from OpenWeatherMap
         </div>
 
         <!-- Div displaying weather details retrieved -->
-        <div class="weatheroutput">
+        <div class="weatheroutput hidden" id="weatheroutput">
 
             <!-- Quick view of the weather details -->
             <h1 id="locname"></h1>
-            
             <div class="quickweather">
-                <h2 id="quick"></h2>
-                <img id="icon">
+                <h1 id="quick"></h1>
+                <img id="icon" class="hidden">
             </div>
 
             <!-- Text tags for the weather data to be displayed-->
@@ -37,7 +36,7 @@ returns weather data retrieved from OpenWeatherMap
             <h5 id="hum"></h5>
             <h5 id="speed"></h5>
 
-            <!-- Div to showcase alerts if any -->
+            <!-- Div to showcase errors if any -->
             <div class="error hidden" id="error">
                 <h5 id="alert"></h5>
             </div>

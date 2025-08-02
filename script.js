@@ -1,5 +1,5 @@
 // API Key constant
-const API_key = "YOUR_API_KEY";
+const API_key = "467a2abc509efb61591b3c4177c88675";
 
 // Function to retrieve data from OpenWeatherMap
 function getAPI(location) {
